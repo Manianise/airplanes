@@ -1,0 +1,16 @@
+  #canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+  }
+  .trail-segment {
+    stroke: grey;
+    stroke-width: 2;
+    stroke-dasharray: 4, 4;
+    fill: none;
+    opacity: 0.5;
+  }
+  .plane {
+    fill: hsl(0, 0%, 60%);
+  }
